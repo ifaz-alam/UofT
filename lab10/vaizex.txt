@@ -1,0 +1,225 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 102240 11496 ?        Ss   12:43   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    12:43   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   12:43   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   12:43   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/0:0H-events_highpri]
+root           7  0.0  0.0      0     0 ?        I    12:43   0:00 [kworker/0:1-events]
+root           9  0.0  0.0      0     0 ?        I<   12:43   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    12:43   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    12:43   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    12:43   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    12:43   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    12:43   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    12:43   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    12:43   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    12:43   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    12:43   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    12:43   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    12:43   0:00 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    12:43   0:00 [cpuhp/2]
+root          24  0.0  0.0      0     0 ?        S    12:43   0:00 [idle_inject/2]
+root          25  0.0  0.0      0     0 ?        S    12:43   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    12:43   0:00 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    12:43   0:00 [kdevtmpfs]
+root          30  0.0  0.0      0     0 ?        I<   12:43   0:00 [netns]
+root          31  0.0  0.0      0     0 ?        I<   12:43   0:00 [inet_frag_wq]
+root          32  0.0  0.0      0     0 ?        S    12:43   0:00 [kauditd]
+root          33  0.0  0.0      0     0 ?        S    12:43   0:00 [khungtaskd]
+root          34  0.0  0.0      0     0 ?        S    12:43   0:00 [oom_reaper]
+root          35  0.0  0.0      0     0 ?        I<   12:43   0:00 [writeback]
+root          36  0.0  0.0      0     0 ?        S    12:43   0:00 [kcompactd0]
+root          37  0.0  0.0      0     0 ?        SN   12:43   0:00 [ksmd]
+root          38  0.0  0.0      0     0 ?        SN   12:43   0:00 [khugepaged]
+root          44  0.0  0.0      0     0 ?        I    12:43   0:00 [kworker/1:1-mm_percpu_wq]
+root          85  0.0  0.0      0     0 ?        I<   12:43   0:00 [kintegrityd]
+root          86  0.0  0.0      0     0 ?        I<   12:43   0:00 [kblockd]
+root          87  0.0  0.0      0     0 ?        I<   12:43   0:00 [blkcg_punt_bio]
+root          88  0.0  0.0      0     0 ?        I<   12:43   0:00 [tpm_dev_wq]
+root          89  0.0  0.0      0     0 ?        I<   12:43   0:00 [ata_sff]
+root          90  0.0  0.0      0     0 ?        I<   12:43   0:00 [md]
+root          91  0.0  0.0      0     0 ?        I<   12:43   0:00 [edac-poller]
+root          92  0.0  0.0      0     0 ?        I<   12:43   0:00 [devfreq_wq]
+root          93  0.0  0.0      0     0 ?        S    12:43   0:00 [watchdogd]
+root          95  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/0:1H-kblockd]
+root          98  0.0  0.0      0     0 ?        S    12:43   0:00 [kswapd0]
+root          99  0.0  0.0      0     0 ?        S    12:43   0:00 [ecryptfs-kthrea]
+root         101  0.0  0.0      0     0 ?        I<   12:43   0:00 [kthrotld]
+root         102  0.0  0.0      0     0 ?        I<   12:43   0:00 [acpi_thermal_pm]
+root         105  0.0  0.0      0     0 ?        S    12:43   0:00 [scsi_eh_0]
+root         106  0.0  0.0      0     0 ?        I<   12:43   0:00 [scsi_tmf_0]
+root         107  0.0  0.0      0     0 ?        S    12:43   0:00 [scsi_eh_1]
+root         108  0.0  0.0      0     0 ?        I<   12:43   0:00 [scsi_tmf_1]
+root         109  0.0  0.0      0     0 ?        I<   12:43   0:00 [vfio-irqfd-clea]
+root         110  0.0  0.0      0     0 ?        I<   12:43   0:00 [mld]
+root         111  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/1:1H-kblockd]
+root         112  0.0  0.0      0     0 ?        I<   12:43   0:00 [ipv6_addrconf]
+root         122  0.0  0.0      0     0 ?        I<   12:43   0:00 [kstrp]
+root         125  0.0  0.0      0     0 ?        I<   12:43   0:00 [zswap-shrink]
+root         126  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/u7:0]
+root         131  0.0  0.0      0     0 ?        I<   12:43   0:00 [charger_manager]
+root         154  0.0  0.0      0     0 ?        I<   12:43   0:00 [kworker/2:1H-kblockd]
+root         180  0.0  0.0      0     0 ?        S    12:43   0:00 [scsi_eh_2]
+root         181  0.0  0.0      0     0 ?        I<   12:43   0:00 [scsi_tmf_2]
+root         203  0.0  0.0      0     0 ?        S    12:43   0:00 [jbd2/sda5-8]
+root         204  0.0  0.0      0     0 ?        I<   12:43   0:00 [ext4-rsv-conver]
+root         245  0.0  0.7  59928 28540 ?        S<s  12:43   0:00 /lib/systemd/systemd-journald
+root         263  0.0  0.0      0     0 ?        I    12:43   0:01 [kworker/2:3-mm_percpu_wq]
+root         268  0.0  0.1  23992  7248 ?        Ss   12:43   0:00 /lib/systemd/systemd-udevd
+root         275  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop0]
+root         280  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop1]
+root         290  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop2]
+root         297  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop3]
+root         298  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop4]
+root         300  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop5]
+root         301  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop6]
+root         302  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop7]
+root         320  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop8]
+root         329  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop9]
+root         330  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop10]
+root         331  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop11]
+root         332  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop12]
+root         333  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop13]
+root         334  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop14]
+root         341  0.0  0.0      0     0 ?        I<   12:43   0:00 [iprt-VBoxWQueue]
+root         343  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop15]
+root         348  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop16]
+root         349  0.0  0.0      0     0 ?        I<   12:43   0:00 [cryptd]
+root         355  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop17]
+root         381  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop18]
+root         389  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop19]
+root         401  0.0  0.0      0     0 ?        S<   12:43   0:00 [loop20]
+systemd+     528  0.0  0.3  23868 13236 ?        Ss   12:43   0:00 /lib/systemd/systemd-resolved
+systemd+     529  0.0  0.1  90220  5944 ?        Ssl  12:43   0:00 /lib/systemd/systemd-timesyncd
+root         568  0.0  0.2 242016  9296 ?        Ssl  12:43   0:00 /usr/lib/accountsservice/accounts-daemon
+root         569  0.0  0.0   2548   772 ?        Ss   12:43   0:00 /usr/sbin/acpid
+avahi        572  0.0  0.0   8532  3532 ?        Ss   12:43   0:00 avahi-daemon: running [ubuntu.local]
+root         573  0.0  0.0   9420  2832 ?        Ss   12:43   0:00 /usr/sbin/cron -f
+root         574  0.0  0.2  28572  8732 ?        Ss   12:43   0:00 /usr/sbin/cupsd -l
+message+     576  0.0  0.1   9768  6160 ?        Ss   12:43   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         579  0.0  0.5 338500 21548 ?        Ssl  12:43   0:00 /usr/sbin/NetworkManager --no-daemon
+root         586  0.0  0.0  81832  3668 ?        Ssl  12:43   0:00 /usr/sbin/irqbalance --foreground
+root         591  0.0  0.5  39328 20128 ?        Ss   12:43   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         598  0.0  0.3 244972 12612 ?        Ssl  12:43   0:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       601  0.0  0.1 224528  4940 ?        Ssl  12:43   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         605  0.0  1.0 1094944 39228 ?       Ssl  12:43   0:01 /usr/lib/snapd/snapd
+root         607  0.0  0.1 235604  6096 ?        Ssl  12:43   0:00 /usr/libexec/switcheroo-control
+root         609  0.0  0.2  16676  8144 ?        Ss   12:43   0:00 /lib/systemd/systemd-logind
+root         611  0.0  0.3 395880 14968 ?        Ssl  12:43   0:00 /usr/lib/udisks2/udisksd
+root         616  0.0  0.1  13684  4764 ?        Ss   12:43   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        627  0.0  0.0   8348   328 ?        S    12:43   0:00 avahi-daemon: chroot helper
+root         652  0.0  0.3 178392 12416 ?        Ssl  12:43   0:00 /usr/sbin/cups-browsed
+lp           656  0.0  0.1  15332  6452 ?        S    12:43   0:00 /usr/lib/cups/notifier/dbus dbus://
+root         679  0.0  0.2 314468 10764 ?        Ssl  12:43   0:00 /usr/sbin/ModemManager
+root         686  0.0  0.5 118024 22684 ?        Ssl  12:43   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+whoopsie     720  0.0  0.4 253516 15780 ?        Ssl  12:43   0:00 /usr/bin/whoopsie -f
+kernoops     721  0.0  0.0  11260   444 ?        Ss   12:43   0:00 /usr/sbin/kerneloops --test
+kernoops     724  0.0  0.0  11260   444 ?        Ss   12:43   0:00 /usr/sbin/kerneloops
+root         932  0.0  0.2 239516  8712 ?        Ssl  12:43   0:00 /usr/sbin/gdm3
+root         935  0.0  0.0 360952  2460 ?        Sl   12:43   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         948  0.0  0.2 166944  9412 ?        Sl   12:43   0:00 gdm-session-worker [pam/gdm-autologin]
+vaizex       953  0.0  0.2  19136 10408 ?        Ss   12:43   0:00 /lib/systemd/systemd --user
+vaizex       954  0.0  0.0 103516  3540 ?        S    12:43   0:00 (sd-pam)
+vaizex       959  0.0  0.4 1670992 19108 ?       S<sl 12:43   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+vaizex       961  0.0  0.6 585000 23820 ?        SNsl 12:43   0:00 /usr/libexec/tracker-miner-fs
+vaizex       964  0.0  0.2 387680  8216 ?        SLl  12:43   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+vaizex       968  0.0  0.1 164052  6372 tty2     Ssl+ 12:43   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+rtkit        969  0.0  0.0 152936  2832 ?        SNsl 12:43   0:00 /usr/libexec/rtkit-daemon
+vaizex       973  2.2  3.6 752728 142252 tty2    Sl+  12:43   0:43 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+vaizex       976  0.0  0.1   8840  5832 ?        Ss   12:43   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+vaizex       979  0.0  0.1 239728  7664 ?        Ssl  12:43   0:00 /usr/libexec/gvfsd
+vaizex       984  0.0  0.2 382064  8460 ?        Sl   12:43   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+vaizex       992  0.0  0.3 391344 12096 ?        Ssl  12:43   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+vaizex      1012  0.0  0.1 235708  6332 ?        Ssl  12:43   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+vaizex      1016  0.0  0.1 237984  6760 ?        Ssl  12:43   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+vaizex      1020  0.0  0.2 316760  8944 ?        Ssl  12:43   0:00 /usr/libexec/gvfs-afc-volume-monitor
+vaizex      1025  0.0  0.2 240296  9060 ?        Ssl  12:43   0:00 /usr/libexec/gvfs-goa-volume-monitor
+vaizex      1029  0.0  1.4 624620 57960 ?        SLl  12:43   0:01 /usr/libexec/goa-daemon
+vaizex      1050  0.0  0.2 318676 11444 ?        Sl   12:43   0:00 /usr/libexec/goa-identity-service
+root        1055  0.0  0.2 252160  9404 ?        Ssl  12:43   0:00 /usr/lib/upower/upowerd
+vaizex      1070  0.0  0.3 190676 14976 tty2     Sl+  12:43   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+vaizex      1146  0.0  0.0  22608   364 ?        S    12:43   0:00 /usr/bin/VBoxClient --clipboard
+vaizex      1147  0.0  0.1 154876  4692 ?        Sl   12:43   0:00 /usr/bin/VBoxClient --clipboard
+vaizex      1158  0.0  0.0  22608   364 ?        S    12:43   0:00 /usr/bin/VBoxClient --seamless
+vaizex      1160  0.0  0.0 154844  2728 ?        Sl   12:43   0:00 /usr/bin/VBoxClient --seamless
+vaizex      1163  0.0  0.0  22608   360 ?        S    12:43   0:00 /usr/bin/VBoxClient --draganddrop
+vaizex      1165  0.2  0.0 155360  2664 ?        Sl   12:43   0:04 /usr/bin/VBoxClient --draganddrop
+vaizex      1171  0.0  0.0  22608   360 ?        S    12:43   0:00 /usr/bin/VBoxClient --vmsvga
+vaizex      1172  0.0  0.0 157124  3392 ?        Sl   12:43   0:00 /usr/bin/VBoxClient --vmsvga
+vaizex      1178  0.0  0.0   6040   452 ?        Ss   12:43   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+vaizex      1198  0.0  0.2 309820  9172 ?        Ssl  12:43   0:00 /usr/libexec/at-spi-bus-launcher
+vaizex      1203  0.0  0.1   7244  4204 ?        S    12:43   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+vaizex      1222  0.0  0.1  90060  4176 ?        Ssl  12:43   0:00 /usr/libexec/gnome-session-ctl --monitor
+vaizex      1229  0.0  0.4 486536 17148 ?        Ssl  12:43   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+vaizex      1243  4.4 13.4 4657784 527536 ?      Ssl  12:43   1:25 /usr/bin/gnome-shell
+vaizex      1278  0.0  0.1 162908  6388 ?        Sl   12:43   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+vaizex      1283  0.0  0.2 388536 10308 ?        Sl   12:43   0:00 ibus-daemon --panel disable --xim
+vaizex      1287  0.0  0.2 240388  9180 ?        Sl   12:43   0:00 /usr/libexec/ibus-dconf
+vaizex      1288  0.1  0.7 274892 30068 ?        Sl   12:43   0:02 /usr/libexec/ibus-extension-gtk3
+vaizex      1291  0.0  0.6 196672 25908 ?        Sl   12:43   0:00 /usr/libexec/ibus-x11 --kill-daemon
+vaizex      1295  0.0  0.2 240360  9016 ?        Sl   12:43   0:00 /usr/libexec/ibus-portal
+vaizex      1306  0.0  0.1 235600  4476 ?        Ssl  12:43   0:00 /usr/libexec/xdg-permission-store
+vaizex      1310  0.0  0.5 729484 21988 ?        Sl   12:43   0:00 /usr/libexec/gnome-shell-calendar-server
+vaizex      1317  0.0  0.8 680896 32288 ?        Ssl  12:43   0:00 /usr/libexec/evolution-source-registry
+vaizex      1326  0.0  0.1 156360  5800 ?        Sl   12:43   0:00 /usr/libexec/dconf-service
+vaizex      1329  0.0  0.1 162396  6372 ?        Ssl  12:43   0:00 /usr/libexec/gvfsd-metadata
+vaizex      1337  0.0  1.0 1137260 42568 ?       Ssl  12:43   0:00 /usr/libexec/evolution-calendar-factory
+vaizex      1352  0.0  0.7 673488 29532 ?        Ssl  12:43   0:00 /usr/libexec/evolution-addressbook-factory
+vaizex      1376  0.0  0.6 2592608 26716 ?       Sl   12:43   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+vaizex      1385  0.0  0.2 317716 10696 ?        Sl   12:43   0:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+vaizex      1397  0.0  0.2 313964  9096 ?        Ssl  12:43   0:00 /usr/libexec/gsd-a11y-settings
+vaizex      1398  0.0  0.7 577300 28376 ?        Ssl  12:43   0:00 /usr/libexec/gsd-color
+vaizex      1399  0.0  0.4 374412 17084 ?        Ssl  12:43   0:00 /usr/libexec/gsd-datetime
+vaizex      1400  0.0  0.2 314204  9552 ?        Ssl  12:43   0:00 /usr/libexec/gsd-housekeeping
+vaizex      1405  0.0  0.6 344868 26456 ?        Ssl  12:43   0:00 /usr/libexec/gsd-keyboard
+vaizex      1408  0.0  0.7 900032 28760 ?        Ssl  12:43   0:00 /usr/libexec/gsd-media-keys
+vaizex      1409  0.0  0.6 418964 26948 ?        Ssl  12:43   0:00 /usr/libexec/gsd-power
+vaizex      1416  0.0  0.2 248260 11032 ?        Ssl  12:43   0:00 /usr/libexec/gsd-print-notifications
+vaizex      1417  0.0  0.1 457136  6028 ?        Ssl  12:43   0:00 /usr/libexec/gsd-rfkill
+vaizex      1419  0.0  0.1 235544  5880 ?        Ssl  12:43   0:00 /usr/libexec/gsd-screensaver-proxy
+vaizex      1421  0.0  0.3 469016 12524 ?        Ssl  12:43   0:00 /usr/libexec/gsd-sharing
+vaizex      1427  0.0  0.2 318124 10560 ?        Ssl  12:43   0:00 /usr/libexec/gsd-smartcard
+vaizex      1431  0.0  0.2 321828 11020 ?        Ssl  12:43   0:00 /usr/libexec/gsd-sound
+vaizex      1435  0.0  0.2 387932  9244 ?        Ssl  12:43   0:00 /usr/libexec/gsd-usb-protection
+vaizex      1442  0.0  0.6 344156 25744 ?        Ssl  12:43   0:00 /usr/libexec/gsd-wacom
+vaizex      1448  0.0  0.2 318320 10376 ?        Ssl  12:43   0:00 /usr/libexec/gsd-wwan
+vaizex      1451  0.0  0.7 345512 27512 ?        Ssl  12:43   0:00 /usr/libexec/gsd-xsettings
+vaizex      1473  0.0  0.1 231800  5960 ?        Sl   12:43   0:00 /usr/libexec/gsd-disk-utility-notify
+vaizex      1522  0.0  1.4 711796 58636 ?        Sl   12:43   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+vaizex      1540  0.4  5.4 1170004 215220 ?      Sl   12:43   0:09 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+vaizex      1550  0.0  0.3 342220 14940 ?        Sl   12:43   0:00 /usr/libexec/gsd-printer
+colord      1565  0.0  0.4 248988 16440 ?        Ssl  12:43   0:00 /usr/libexec/colord
+vaizex      1566  0.0  0.2 166552  9064 ?        Sl   12:43   0:00 /usr/libexec/ibus-engine-simple
+vaizex      1598  0.0  0.1 457428  6424 ?        Ssl  12:43   0:00 /usr/libexec/xdg-document-portal
+vaizex      1707  0.0  0.2 462856 10524 ?        Ssl  12:43   0:00 /usr/libexec/xdg-desktop-portal
+vaizex      1713  0.0  0.6 492624 26580 ?        Ssl  12:43   0:00 /usr/libexec/xdg-desktop-portal-gtk
+root        1725  0.0  2.1 440292 84388 ?        Ssl  12:43   0:01 /usr/libexec/fwupd/fwupd
+vaizex      2657  0.0  0.7 419360 29528 ?        Sl   12:44   0:00 update-notifier
+root        2852  0.0  0.0      0     0 ?        I    12:48   0:00 [kworker/0:0-cgroup_destroy]
+vaizex      2867  0.6  1.2 813556 50316 ?        Ssl  12:49   0:09 /usr/libexec/gnome-terminal-server
+vaizex      2875  0.0  0.1  11144  5372 pts/0    Ss   12:49   0:00 bash
+vaizex      2932  1.6  3.8 42638468 151424 ?     SLsl 12:49   0:25 /snap/code/91/usr/share/code/code --no-sandbox bufserver.c
+vaizex      2934  0.0  1.1 363420 45648 ?        S    12:49   0:00 /snap/code/91/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+vaizex      2935  0.0  1.1 363420 45404 ?        S    12:49   0:00 /snap/code/91/usr/share/code/code --type=zygote --no-sandbox
+vaizex      2958  1.0  1.9 459756 77064 ?        Sl   12:49   0:16 /snap/code/91/usr/share/code/code --type=gpu-process --field-trial-handle=351027833983493077,1281669218881176579,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel --global-crash-keys=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/vaizex/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+vaizex      2973  0.0  1.5 418996 58844 ?        Sl   12:49   0:00 /snap/code/91/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=351027833983493077,1281669218881176579,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=none --no-sandbox --enable-crash-reporter=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel --global-crash-keys=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/vaizex/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100
+vaizex      2985  6.5  6.4 53015440 252656 ?     Sl   12:49   1:41 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=351027833983493077,1281669218881176579,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-GB --enable-crash-reporter=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel --global-crash-keys=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/vaizex/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --num-raster-threads=1 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:67b39460-00eb-4849-8279-7e98c3002011
+vaizex      2999  0.6  3.6 38224372 142256 ?     Sl   12:49   0:10 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+vaizex      3011  0.2  3.4 42492392 133588 ?     Sl   12:49   0:03 /snap/code/91/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=351027833983493077,1281669218881176579,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-GB --enable-crash-reporter=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel --global-crash-keys=20154ba8-769d-4cae-8eaa-3a861a001416,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.65.2 --user-data-dir=/home/vaizex/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/91/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --num-raster-threads=1 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --vscode-window-config=vscode:2f1ed026-6e22-43ac-aeae-6722dfea986d --vscode-window-kind=shared-process
+vaizex      3024  0.0  1.7 38186452 68368 ?      Sl   12:49   0:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+vaizex      3047  0.0  1.7 38186964 67792 ?      Sl   12:49   0:00 /snap/code/91/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/91/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+vaizex      3062  0.3  1.0 1122876 40900 ?       Sl   12:49   0:05 /home/vaizex/.vscode/extensions/ms-vscode.cpptools-1.9.7/bin/cpptools
+vaizex      3102  0.1  0.7 693544 28648 ?        Sl   12:49   0:01 /home/vaizex/.vscode/extensions/ms-vscode.cpptools-1.9.7/bin/cpptools-srv 3062 {10A36D77-ACFF-42E4-B137-16A2D6549CFA}
+vaizex      3217  0.0  0.0   2496   580 pts/0    T    12:59   0:00 ./bufserver
+vaizex      3233  0.0  0.1  10880  5228 pts/1    Ss+  12:59   0:00 bash
+root        3289  0.0  0.0      0     0 ?        I    13:01   0:00 [kworker/u6:1-events_unbound]
+root        3313  0.0  0.0      0     0 ?        I    13:01   0:00 [kworker/2:0]
+root        3371  0.0  0.0      0     0 ?        I    13:01   0:00 [kworker/1:2-cgroup_destroy]
+root        3401  0.0  0.0      0     0 ?        I    13:08   0:00 [kworker/u6:2-events_unbound]
+vaizex      3469  0.4  1.4 893352 57148 pts/0    Tl   13:11   0:00 gedit Makefile
+vaizex      3582  0.0  0.3 222156 15448 pts/0    Tl   13:15   0:00 gedit vaizex.txt
+vaizex      3585  0.0  0.3 222156 15508 pts/0    Tl   13:15   0:00 gedit vaizex.txt
+vaizex      3589  0.0  0.4 222156 15740 pts/0    Tl   13:15   0:00 gedit vaizex.txt
+vaizex      3592  0.0  0.0  11496  3272 pts/0    R+   13:15   0:00 ps aux

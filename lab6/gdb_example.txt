@@ -1,0 +1,153 @@
+Script started on 2022-02-17 23:35:16-0500
+]0;alamifaz@wolf:/h/u13/c0/00/alamifaz/Documents/alamifaz/lab6wolf:~/Documents/alamifaz/lab6$ exitgdb overflow[8Pexitgdb overflow[8Pexitgdb overflow
+GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overflow...done.
+(gdb) break 33
+Breakpoint 1 at 0x94f: file overflow.c, line 33.
+(gdb) break 36
+Breakpoint 2 at 0x959: file overflow.c, line 36.
+(gdb) print a[K[K[K[K[K[K[Kprint *(after[K[K[K[K[K[K[K*[K&after[K[K[K[K[K(after[0])
+No symbol "after" in current context.
+(gdb) pr[K[Krun
+Starting program: /h/u13/c0/00/alamifaz/Documents/alamifaz/lab6/overflow 
+Address of the variables:
+7fffffffe980 -> &after[0]
+7fffffffe984 -> &after[1]
+7fffffffe988 -> &after[2]
+7fffffffe98c -> &after[3]
+7fffffffe970 -> &a[0]
+7fffffffe974 -> &a[1]
+7fffffffe978 -> &a[2]
+7fffffffe97c -> &a[3]
+7fffffffe960 -> &before[0]
+7fffffffe964 -> &before[1]
+7fffffffe968 -> &before[2]
+7fffffffe96c -> &before[3]
+7fffffffe95c -> &i
+7fffffffe958 -> &index
+
+Initial values:
+i = 0
+before = {10, 10, 10, 10}
+a = {0, 0, 0, 0}
+after = {10, 10, 10, 10}
+
+Breakpoint 1, main () at overflow.c:33
+33          printf("\n");
+(gdb) continue
+Continuing.
+
+
+Breakpoint 2, main () at overflow.c:36
+36          for (i = 0; i < OVERFLOW; i++) {
+(gdb) print *[K&(a[4])
+$1 = (int *) 0x7fffffffe980
+(gdb) next
+37              a[i] = i * 10;
+(gdb) next
+38              printf("i = %d\n", i);
+(gdb) next
+i = 0
+39              printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+(gdb) next
+before = {10, 10, 10, 10}
+40              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+(gdb) next
+a = {0, 0, 0, 0}
+41              printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+(gdb) next
+after = {10, 10, 10, 10}
+36          for (i = 0; i < OVERFLOW; i++) {
+(gdb) next
+37              a[i] = i * 10;
+(gdb) next
+38              printf("i = %d\n", i);
+(gdb) a
+Ambiguous command "a": actions, add-auto-load-safe-path, add-auto-load-scripts-directory, add-inferior...
+(gdb) print a
+$2 = {0, 10, 0, 0}
+(gdb) next
+i = 1
+39              printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+(gdb) next
+before = {10, 10, 10, 10}
+40              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+(gdb) next
+a = {0, 10, 0, 0}
+41              printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+(gdb) next
+after = {10, 10, 10, 10}
+36          for (i = 0; i < OVERFLOW; i++) {
+(gdb) next
+37              a[i] = i * 10;
+(gdb) print i
+$3 = 2
+(gdb) next
+38              printf("i = %d\n", i);
+(gdb) next
+i = 2
+39              printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+(gdb) next
+before = {10, 10, 10, 10}
+40              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+(gdb) next
+a = {0, 10, 20, 0}
+41              printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+(gdb) next
+after = {10, 10, 10, 10}
+36          for (i = 0; i < OVERFLOW; i++) {
+(gdb) next
+37              a[i] = i * 10;
+(gdb) print i
+$4 = 3
+(gdb) next
+38              printf("i = %d\n", i);
+(gdb) next
+i = 3
+39              printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+(gdb) next
+before = {10, 10, 10, 10}
+40              printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+(gdb) next
+a = {0, 10, 20, 30}
+41              printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+(gdb) next
+after = {10, 10, 10, 10}
+36          for (i = 0; i < OVERFLOW; i++) {
+(gdb) next
+37              a[i] = i * 10;
+(gdb) prit [K[K[Kint i
+$5 = 4
+(gdb) next[K[K[K[Kprint after
+$6 = {10, 10, 10, 10}
+(gdb) next
+38              printf("i = %d\n", i);
+(gdb) print after
+$7 = {40, 10, 10, 10}
+(gdb) prin[K[K[K[Kprint *[K*&[K[K&*[K()[Kafter[0])
+$8 = (int *) 0x7fffffffe980
+(gdb) print *[K&a[4][K[K[K[K(a[4])
+$9 = (int *) 0x7fffffffe980
+(gdb) quit
+A debugging session is active.
+
+        Inferior 1 [process 7859] will be killed.
+
+Quit anyway? (y or n) y
+]0;alamifaz@wolf:/h/u13/c0/00/alamifaz/Documents/alamifaz/lab6wolf:~/Documents/alamifaz/lab6$ exit
+exit
+
+Script done on 2022-02-17 23:38:25-0500
