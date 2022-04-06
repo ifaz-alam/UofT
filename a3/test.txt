@@ -1,0 +1,105 @@
+LINE #1: GET /die HTTP/1.1
+
+GET /die HTTP/1.1
+
+child terminated
+LINE #2: Host: www.teach.cs.toronto.edu
+
+LINE #3: User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+
+LINE #4: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+LINE #5: Accept-Language: en-us,en;q=0.5
+
+LINE #6: Accept-Encoding: gzip,deflate
+
+LINE #7: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+LINE #8: Keep-Alive: 300
+
+LINE #9: Connection: keep-alive
+
+LINE #10: 
+
+LINE #11: GET /simple?skip=Howard&third=Howard&second=Mathers&first=March HTTP/1.1
+
+GET /simple?skip=Howard&third=Howard&second=Mathers&first=March HTTP/1.1
+
+child terminated
+LINE #12: Host: www.teach.cs.toronto.edu
+
+LINE #13: User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+
+LINE #14: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+LINE #15: Accept-Language: en-us,en;q=0.5
+
+LINE #16: Accept-Encoding: gzip,deflate
+
+LINE #17: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+LINE #18: Keep-Alive: 300
+
+LINE #19: Connection: keep-alive
+
+LINE #20: 
+
+LINE #21: Host: www.teach.cs.toronto.edu
+
+LINE #22: User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+
+LINE #23: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+LINE #24: Accept-Language: en-us,en;q=0.5
+
+LINE #25: Accept-Encoding: gzip,deflate
+
+LINE #26: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+LINE #27: Keep-Alive: 300
+
+LINE #28: Connection: keep-alive
+
+LINE #29: 
+
+LINE #30: GET /simple?skip=Howard&third=Howard&second=Mathers&first=March HTTP/1.1
+
+GET /simple?skip=Howard&third=Howard&second=Mathers&first=March HTTP/1.1
+
+child terminated
+LINE #31: Host: www.teach.cs.toronto.edu
+
+LINE #32: User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+
+LINE #33: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+LINE #34: Accept-Language: en-us,en;q=0.5
+
+LINE #35: Accept-Encoding: gzip,deflate
+
+LINE #36: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+LINE #37: Keep-Alive: 300
+
+LINE #38: Connection: keep-alive
+
+LINE #39: 
+
+LINE #40: Host: www.teach.cs.toronto.edu
+
+LINE #41: User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.1.8) Gecko/20100202 Firefox/3.5.8
+
+LINE #42: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+LINE #43: Accept-Language: en-us,en;q=0.5
+
+LINE #44: Accept-Encoding: gzip,deflate
+
+LINE #45: Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+LINE #46: Keep-Alive: 300
+
+LINE #47: Connection: keep-alive
+
+LINE #48: 
+
